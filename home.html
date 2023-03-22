@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="./logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toofan Games</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav_logo">
+            <a href="https://toofanedu.live/">
+                <img src="./logo.png" alt="">
+            </a>
+        </div>
+    </nav>
+
+    <div class="game_wrapper">
+        <div class="game_wrapper_header">
+            <h2>Games<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, explicabo!</span></h2>
+            <img src="https://cdn.dribbble.com/users/517841/screenshots/3359866/iq180.gif" alt="">
+        </div>
+        <div class="game_container">
+            <a href="./Menja/menja.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="https://pbs.twimg.com/media/D7YJVKNXYAAUoZX.png" alt="">
+                </div>
+                <h3>Menja</h3>
+            </a>
+            <a href="./TILTING/Tilting.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="https://shots.codepen.io/HunorMarton/pen/VwKwgxX-800.jpg?version=1608759976" alt="">
+                </div>
+                <h3>Tilting Game</h3>
+            </a>
+            <a href="./Snake/snake.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="https://construct-static.com/uploads/91398/3eb4ea3c-8c6c-449a-88ea-f2c638250d59/r/900/scr1.jpg" alt="">
+                </div>
+                <h3>Snake Game</h3>
+            </a>
+            <!-- <a href="./Memory/Memory.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="data:image/png;base64,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" alt="">
+                </div>
+                <h3>Sweet Memory</h3>
+            </a> -->
+            <a href="./Sudoku/Sudoku.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="https://bestof.nyc3.digitaloceanspaces.com/devsnap.me/codepen-vJwroj.png" alt="">
+                </div>
+                <h3>Sudoku</h3>
+            </a>
+            <a href="./PUZZLE/Puzzle.html" class="game_card">
+                <div class="game_card_img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgto-tittzM4teBhX6enSGay8ha4tbaddR_NMTzmhfsWUW6bFFOOLtsr2PdfJBL-PP8Sk&usqp=CAU" alt="">
+                </div>
+                <h3>Number Puzzle</h3>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
